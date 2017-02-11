@@ -1,0 +1,106 @@
+.header-wrapper {
+  background-color: #244F59;
+  border-bottom: 2px solid #244F59;
+  position: fixed;
+  width: 100%;
+}
+.header-wrapper .header {
+  padding: 5px;
+  height: 54px;
+  text-align: left;
+  max-width: 992px;
+  margin: auto;
+}
+.header-wrapper .header .menu {
+  float: right;
+  color: #ECF0F1;
+  text-align: right;
+  font-weight: bold;
+}
+.header-wrapper .header .menu li {
+  display: inline;
+  padding: 0 10px;
+}
+.header-wrapper .header .menu li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.header-wrapper .logo {
+  height: 100%;
+  margin-top: 10%;
+  width: auto;
+  margin: auto;
+}
+.main-content {
+  max-width: 992px;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 56px;
+}
+.name {
+  margin: 0;
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.img-container {
+  padding-top: 10px;
+  text-align: center;
+}
+.img-container .main-img {
+  width: 20%;
+  border-radius: 100%;
+  border: 5px solid #244F59;
+}
+.sec .sec-header {
+  color: #244F59;
+  font-weight: bold;
+  font-size: 2em;
+  border-bottom: 3px solid #244F59;
+  margin-top: 15px;
+}
+.sec .sec-content {
+  padding: 10px;
+  padding-bottom: 0;
+}
+.sec .institution {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+.sec .timeline {
+  font-size: 0.9em;
+}
+.sec .description {
+  font-size: 1.1em;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.sec .responsibilities {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Cabin;
+  color: #244F59;
+  background-color: white;
+  font-size: 14px;
+}
+p {
+  margin: 0;
+}
+textarea {
+  font-family: inherit;
+}
