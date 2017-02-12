@@ -68,7 +68,8 @@
   padding: 10px;
   padding-bottom: 0;
 }
-.sec .institution {
+.sec .institution,
+.sec .proj-name {
   font-size: 1.3em;
   font-weight: bold;
   margin-top: 10px;
@@ -103,4 +104,8 @@ p {
 }
 textarea {
   font-family: inherit;
+}
+a,
+a:visited {
+  color: inherit;
 }
