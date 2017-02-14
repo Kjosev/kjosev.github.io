@@ -62,7 +62,7 @@
   font-weight: bold;
   font-size: 2em;
   border-bottom: 3px solid #244F59;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .sec .sec-content {
   padding: 10px;
@@ -86,6 +86,11 @@
 }
 .sec .responsibilities {
   margin: 0;
+}
+#sec-contact .sec-content {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 1.3em;
 }
 * {
   box-sizing: border-box;
