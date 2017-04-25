@@ -45,6 +45,19 @@
   font-weight: bold;
   text-align: center;
 }
+#sec-info {
+  text-align: center;
+}
+#sec-info .resume-btn {
+  margin-top: 10px;
+  color: white;
+  background-color: #244F59;
+  border: none;
+  padding: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1em;
+}
 .title {
   text-align: center;
 }
@@ -107,7 +120,8 @@ body {
 p {
   margin: 0;
 }
-textarea {
+textarea,
+button {
   font-family: inherit;
 }
 a,
